@@ -42,10 +42,10 @@ Back up any important data from the calculator before proceeding.
 - Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice to place the cursor at the beginning of an empty line on the home screen.
 - Press `.` `1` `enter` `enter`. The calculator should show the result `0.1` twice.
 - Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time)
-- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `⯅` `delete` `delete`
+- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `clear` `⯅` `delete` `delete`
 - Press `⯅` to scroll through recovered entries.
 
-[Here](example.webm?raw=true) is a video illustrating this example.
+[Here](example.mp4?raw=true) is a video illustrating this example.
 
 ## Full procedure
 
@@ -141,7 +141,7 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `+` `enter` `clear` `clear` `clear` `ln`.
 
 
-- Press `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `⯅` `delete`.
+- Press `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `clear` `⯅` `delete`.
 
 
 - **If** the most recent result before reset was `Error` :
