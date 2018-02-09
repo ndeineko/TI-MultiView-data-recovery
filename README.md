@@ -45,7 +45,7 @@ Back up any important data from the calculator before proceeding.
 - Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `clear` `⯅` `delete` `delete`
 - Press `⯅` to scroll through recovered entries.
 
-[Here](example.mp4?raw=true) is a video illustrating this example.
+[Here](example.webm?raw=true) is a video illustrating this example.
 
 ## Full procedure
 
