@@ -27,7 +27,7 @@ If the calculator becomes unresponsive or is behaving unexpectedly, it is highly
 
 ## Note about keystrokes
 
-In the following sections, `^` is the exponentiation key. Special care should be taken not to confuse it with `⯅`, which represents the key to scroll up.
+In the following sections, `^` is the exponentiation key. Special care should be taken not to confuse it with `▲`, which represents the key to scroll up.
 
 ## Example
 
@@ -37,13 +37,13 @@ Back up any important data from the calculator before proceeding.
 
 - Press `on` to turn on the calculator.
 - Press `mode` to show the options.
-- Make sure that the default options `NORM` (second line) and `FLOAT` (third line) are highlighted. If it's not the case, scroll down by pressing `⯆` and select them by pressing `enter`.
+- Make sure that the default options `NORM` (second line) and `FLOAT` (third line) are highlighted. If it's not the case, scroll down by pressing `▼` and select them by pressing `enter`.
 - At the fourth line of the mode menu, **don't** switch from `MATHPRINT` to `CLASSIC` or from `CLASSIC` to `MATHPRINT` as doing so will remove all the entries in memory. That said, if `CLASSIC` (non default option) was highlighted, make sure to delete all entries containing special symbols (exponents, fractions, ...) before continuing as the calculator might crash after recovery when displaying those entries.
 - Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice to place the cursor at the beginning of an empty line on the home screen.
 - Press `.` `1` `enter` `enter`. The calculator should show the result `0.1` twice.
 - Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time)
-- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `clear` `⯅` `delete` `delete`
-- Press `⯅` to scroll through recovered entries.
+- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`
+- Press `▲` to scroll through recovered entries.
 
 [Here](example.webm?raw=true) is a video illustrating this example.
 
@@ -72,12 +72,12 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `data`.
 	- (*40* times) Press `0` `enter`.
 	- At this point, the bottom of the screen should show `L1(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
-	- Press `⯈`
+	- Press `▶`
 	- **If** *size* is strictly smaller than *3* :
 		- (*41* or more times) Press `0` `enter`.
 	- Otherwise (**If** *size* is greater than or equal to *3*) :
-		- Press `sto🠺` `data` `enter` `enter` `⯅` `0` `enter`
-	- Press `⯇` `0` `enter` `0` `enter` `enter` `0` `enter` `2nd` `delete`.
+		- Press `sto🠺` `data` `enter` `enter` `▲` `0` `enter`
+	- Press `◀` `0` `enter` `0` `enter` `enter` `0` `enter` `2nd` `delete`.
 	- Increment *size* by *8* and memorize the new value.
 	- **If** *size* is still strictly smaller than *16* :
 		- Press `2nd` `delete`
@@ -90,10 +90,10 @@ The following steps should be done in chronological order. When a step contains 
 
 
 - **If** *size* is equal to *21* or *22* :
-  - Press `data` `⯇`.
+  - Press `data` `◀`.
   - (*40* times) Press `0` `enter`.
   - At this point, the bottom of the screen should show `L3(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
-  - Press `⯇` `sto🠺` `data` `3` `enter` `⯅` `0` `enter` `⯈` `0` `enter` `0` `enter` `enter`.
+  - Press `◀` `sto🠺` `data` `3` `enter` `▲` `0` `enter` `▶` `0` `enter` `0` `enter` `enter`.
   - (*18* times) Press `0` `enter`.
   - At this point, the bottom of the screen should show `L3(61)=    `.
   - Press `1` `0` `0` `0` `0` `0` `1`.
@@ -104,19 +104,19 @@ The following steps should be done in chronological order. When a step contains 
 
 
 - **If** *size* is equal to *17* :
- 	- Press `.`.
+	- Press `.`.
 
 
 - **If** *size* is equal to *18* :
- 	- Press `−` `⯇` `⯇` `delete` `⯈`.
+	- Press `−` `◀` `◀` `delete` `▶`.
 
 
 - **If** *size* is equal to *19* :
-	- Press `÷` `⯇` `⯇` `delete` `⯈`.
+	- Press `÷` `◀` `◀` `delete` `▶`.
 
 
 - **If** *size* is equal to *20* :
-	- Press `prb` `enter` `⯇` `⯇` `delete` `⯈`.
+	- Press `prb` `enter` `◀` `◀` `delete` `▶`.
 
 
 - **If** *size* is equal to *21* :
@@ -124,11 +124,11 @@ The following steps should be done in chronological order. When a step contains 
 
 
 - **If** *size* is equal to *22* :
-	- Press `7` `π` `enter` `data` `4` `2nd` `÷` `delete` `delete` `enter` `enter` `clear` `2nd` `÷` `⯇` `delete` `⯈`.
+	- Press `7` `π` `enter` `data` `4` `2nd` `÷` `delete` `delete` `enter` `enter` `clear` `2nd` `÷` `◀` `delete` `▶`.
 
 
 - **If** *size* is equal to *23* :
-	- Press `2nd` `(` `⯇` `⯇` `delete` `⯈`.
+	- Press `2nd` `(` `◀` `◀` `delete` `▶`.
 
 
 - **If** *size* is strictly greater than *23* :
@@ -141,11 +141,11 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `+` `enter` `clear` `clear` `clear` `ln`.
 
 
-- Press `^` `enter` `clear` `data` `0` `enter` `⯈` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅` `enter` `⯇` `⯅` `enter` `delete` `delete` `clear` `⯅` `delete`.
+- Press `^` `enter` `clear` `data` `0` `enter` `▶` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete`.
 
 
 - **If** the most recent result before reset was `Error` :
-	- Press `data` `sto🠺` `data` `2` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `⯅`.
+	- Press `data` `sto🠺` `data` `2` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲`.
 - Otherwise (**If** the most recent result before reset was **not** an error) :
 	- Press `delete`.
 
@@ -154,7 +154,7 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `delete` until a recovered result is about to be deleted, that is, exactly *(size - 16) / 2* times if *size* is even or *(size - 15) / 2* times if *size* is odd.
 
 
-- Scroll through recovered entries with `⯅`.
+- Scroll through recovered entries with `▲`.
 
 ## Entry size
 
@@ -176,7 +176,7 @@ For instance, the following expression has a size of *14* :
 
 ![](size-example.jpg)
 
-It contains:
+It contains :
 - *2* fraction bars,
 - one natural exponentiation symbol,
 - one square root,
