@@ -42,7 +42,7 @@ Back up any important data from the calculator before proceeding.
 - Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice to place the cursor at the beginning of an empty line on the home screen.
 - Press `.` `1` `enter` `enter`. The calculator should show the result `0.1` twice.
 - Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time)
-- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`
+- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`
 - Press `▲` to scroll through recovered entries.
 
 [Here](example.webm?raw=true) is a video illustrating this example.
@@ -76,7 +76,7 @@ The following steps should be done in chronological order. When a step contains 
 	- **If** *size* is strictly smaller than *3* :
 		- (*41* or more times) Press `0` `enter`.
 	- Otherwise (**If** *size* is greater than or equal to *3*) :
-		- Press `sto🠺` `data` `enter` `enter` `▲` `0` `enter`
+		- Press `sto▸` `data` `enter` `enter` `▲` `0` `enter`
 	- Press `◀` `0` `enter` `0` `enter` `enter` `0` `enter` `2nd` `delete`.
 	- Increment *size* by *8* and memorize the new value.
 	- **If** *size* is still strictly smaller than *16* :
@@ -93,7 +93,7 @@ The following steps should be done in chronological order. When a step contains 
   - Press `data` `◀`.
   - (*40* times) Press `0` `enter`.
   - At this point, the bottom of the screen should show `L3(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
-  - Press `◀` `sto🠺` `data` `3` `enter` `▲` `0` `enter` `▶` `0` `enter` `0` `enter` `enter`.
+  - Press `◀` `sto▸` `data` `3` `enter` `▲` `0` `enter` `▶` `0` `enter` `0` `enter` `enter`.
   - (*18* times) Press `0` `enter`.
   - At this point, the bottom of the screen should show `L3(61)=    `.
   - Press `1` `0` `0` `0` `0` `0` `1`.
@@ -141,11 +141,11 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `+` `enter` `clear` `clear` `clear` `ln`.
 
 
-- Press `^` `enter` `clear` `data` `0` `enter` `▶` `sto🠺` `data` `enter` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete`.
+- Press `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete`.
 
 
 - **If** the most recent result before reset was `Error` :
-	- Press `data` `sto🠺` `data` `2` `enter` `sto🠺` `clear` `clear` `2nd` `mode` `▲`.
+	- Press `data` `sto▸` `data` `2` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲`.
 - Otherwise (**If** the most recent result before reset was **not** an error) :
 	- Press `delete`.
 
