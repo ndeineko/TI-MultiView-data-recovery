@@ -13,7 +13,7 @@ After it has been reset, the calculator shows `MEMORY CLEARED`, but the memory i
 
 The method described in this document can recover the entries (inputs and answers) on the home screen. It cannot be used to restore settings, variables, data editor values, statistical data, etc.
 
-This procedure is specific to the TI-30XS MultiView™ and TI-30XB MultiView™ models. But some others Texas Instruments calculators (TI-30X Pro MultiView™, TI-36X Pro, TI-34 MultiView™, ...) have similar bugs, which this document is too narrow to contain.
+This procedure is specific to the TI-30XS MultiView™ and TI-30XB MultiView™ models. But some others Texas Instruments calculators (TI-30X Pro MultiView™, TI-36X Pro, TI-34 MultiView™, …) have similar bugs, which this document is too narrow to contain.
 
 ## Disclaimer
 
@@ -31,15 +31,15 @@ In the following sections, `^` is the exponentiation key. Special care should be
 
 ## Example
 
-This section contains a simple proof of concept. It should be tested on a unit that has **not** been reset recently and contains one or more entries in memory. The unit will be reset before testing the ability to recover those entries.
+This section contains a simple proof of concept. It should be tested on a unit containing one or more entries in memory (**not** on one that has just been reset). The unit will be reset before showing the ability to recover those entries.
 
 Back up any important data from the calculator before proceeding.
 
 - Press `on` to turn on the calculator.
 - Press `mode` to show the options.
 - Make sure that the default options `NORM` (second line) and `FLOAT` (third line) are highlighted. If it's not the case, scroll down by pressing `▼` and select them by pressing `enter`.
-- At the fourth line of the mode menu, **don't** switch from `MATHPRINT` to `CLASSIC` or from `CLASSIC` to `MATHPRINT` as doing so will remove all the entries in memory. That said, if `CLASSIC` (non default option) was highlighted, make sure to delete all entries containing special symbols (exponents, fractions, ...) before continuing as the calculator might crash after recovery when displaying those entries.
-- Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice to place the cursor at the beginning of an empty line on the home screen.
+- At the fourth line of the mode menu, **don't** switch from `MATHPRINT` to `CLASSIC` or from `CLASSIC` to `MATHPRINT` as doing so will remove all the entries in memory. That said, if `CLASSIC` (non default option) was highlighted, make sure to delete all inputs and results containing special symbols (exponents, fractions, …) before continuing as the calculator might crash after recovery when displaying those entries.
+- Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice and place the cursor at the beginning of an empty line on the home screen.
 - Press `.` `1` `enter` `enter`. The calculator should show the result `0.1` twice.
 - Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time)
 - Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`
@@ -49,9 +49,9 @@ Back up any important data from the calculator before proceeding.
 
 ## Full procedure
 
-This section describes a more complete procedure. It will recover entries that were present before the reset, except the two most recent ones, that is, one expression and its associated result. This procedure should be done just after a reset. It might not work if new entries were added after `MEMORY CLEARED` was shown. It can also be used immediately after history disappears when switching mode from MathPrint™ to Classic. In that case, reset or switch back to MathPrint™ before continuing.
+This section describes a more complete procedure. It will recover entries that were present before the reset, except the two most recent ones. That is, one expression and its associated result. This procedure should be done just after a reset. It might not work if new entries were added after `MEMORY CLEARED` was shown. It can also be used immediately after history disappears when switching mode from MathPrint™ to Classic. In that case, reset or switch back to MathPrint™ before continuing.
 
-For special symbols (fractions, exponents, roots, ...), MathPrint™ (default mode) and Classic don't use the same encoding. If the entries to recover were added in Classic mode, the calculator will crash or freeze when displaying the ones that contains special symbols.
+For special symbols (fractions, exponents, roots, …), MathPrint™ (textbook-style and default mode) and Classic don't use the same encoding. If the entries to recover were added in Classic mode, the calculator will crash or freeze when displaying the ones that contain those symbols.
 
 For this to work, it's also imperative to remember the most recent result that was computed on the calculator (or, the most recent input, if that result was `Error`), in order to determine where the next entry is stored in memory.
 
@@ -164,7 +164,7 @@ Start with a size of zero.
 
 - Add *1* For every classic (non textbook-style) symbol. A classic symbol can contain one (e.g., `5`, `÷` and `π`) or more characters (e.g., `cos(`, `ans`, ` nCr ` and `►％`) and still have a size of *1*.
 
-For special MathPrint™ symbols :
+For MathPrint™ (textbook-style) symbols :
 - Add *1* for every rectangle with a dotted border (a placeholder, typically found inside a fraction, root or exponent).
 - Add *2* for every natural exponentiation symbol (and **don't** count `e` as a character).
 - Add *2* for every other exponentiation (with another base than `e`).
