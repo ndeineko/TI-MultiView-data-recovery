@@ -90,13 +90,13 @@ The following steps should be done in chronological order. When a step contains 
 
 
 - **If** *size* is equal to *21* or *22* :
-  - Press `data` `◀`.
-  - (*40* times) Press `0` `enter`.
-  - At this point, the bottom of the screen should show `L3(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
-  - Press `◀` `sto▸` `data` `3` `enter` `▲` `0` `enter` `▶` `0` `enter` `0` `enter` `enter`.
-  - (*18* times) Press `0` `enter`.
-  - At this point, the bottom of the screen should show `L3(61)=    `.
-  - Press `1` `0` `0` `0` `0` `0` `1`.
+	- Press `data` `◀`.
+	- (*40* times) Press `0` `enter`.
+	- At this point, the bottom of the screen should show `L3(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
+	- Press `◀` `sto▸` `data` `3` `enter` `▲` `0` `enter` `▶` `0` `enter` `0` `enter` `enter`.
+	- (*18* times) Press `0` `enter`.
+	- At this point, the bottom of the screen should show `L3(61)=    `.
+	- Press `1` `0` `0` `0` `0` `0` `1`.
 
 
 - **If** *size* is equal to *16* :
