@@ -47,6 +47,8 @@ Back up any important data from the calculator before proceeding.
 
 [Here](example.webm?raw=true) is a video illustrating this example.
 
+[example.webm](https://github.com/ndeineko/TI-MultiView-data-recovery/assets/11009067/38b84176-1752-448e-9a26-5a588657b454)
+
 ## Full procedure
 
 This section describes a more complete procedure. It will recover entries that were present before the reset, except the two most recent ones. That is, one expression and its associated result. This procedure should be done just after a reset. It might not work if new entries were added after `MEMORY CLEARED` was shown. It can also be used immediately after history disappears when switching mode from MathPrint™ to Classic. In that case, reset or switch back to MathPrint™ before continuing.
