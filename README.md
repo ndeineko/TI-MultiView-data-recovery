@@ -41,8 +41,8 @@ Back up any important data from the calculator before proceeding.
 - At the fourth line of the mode menu, **don't** switch from `MATHPRINT` to `CLASSIC` or from `CLASSIC` to `MATHPRINT` as doing so will remove all the entries in memory. That said, if `CLASSIC` (non default option) was highlighted, make sure to delete all inputs and results containing special symbols (exponents, fractions, …) before continuing as the calculator might crash after recovery when displaying those entries.
 - Press `2nd` `on` `on` `2nd` `on` `on` to restart the calculator twice and place the cursor at the beginning of an empty line on the home screen.
 - Press `.` `1` `enter` `enter`. The calculator should show the result `0.1` twice.
-- Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time)
-- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`
+- Reset the unit by pressing `2nd` `0` `2` (or with any other method, including by replacing the battery or by pressing `on`&`clear` at the same time).
+- Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`.
 - Press `▲` to scroll through recovered entries.
 
 [Here](example.webm?raw=true) is a video illustrating this example.
@@ -74,15 +74,15 @@ The following steps should be done in chronological order. When a step contains 
 	- Press `data`.
 	- (*40* times) Press `0` `enter`.
 	- At this point, the bottom of the screen should show `L1(41)=    `. If it's not the case, insert or delete the right amount of cells to get *40* lines of zeros.
-	- Press `▶`
+	- Press `▶`.
 	- **If** *size* is strictly smaller than *3* :
 		- (*41* or more times) Press `0` `enter`.
 	- Otherwise (**If** *size* is greater than or equal to *3*) :
-		- Press `sto▸` `data` `enter` `enter` `▲` `0` `enter`
+		- Press `sto▸` `data` `enter` `enter` `▲` `0` `enter`.
 	- Press `◀` `0` `enter` `0` `enter` `enter` `0` `enter` `2nd` `delete`.
 	- Increment *size* by *8* and memorize the new value.
 	- **If** *size* is still strictly smaller than *16* :
-		- Press `2nd` `delete`
+		- Press `2nd` `delete`.
 		- Increment *size* by *8* and memorize it.
 	- Press `2nd` `0` `2`.
 
@@ -139,7 +139,7 @@ The following steps should be done in chronological order. When a step contains 
 		- Press `×`.
 	- Otherwise (**If** *size* is an odd number) :
 		- Press `+`.
-	- (*size minus 20* times) Press `(`
+	- (*size minus 20* times) Press `(`.
 	- Press `+` `enter` `clear` `clear` `clear` `ln`.
 
 
@@ -164,7 +164,7 @@ This section explains how to calculate the size of an entry in memory. It works 
 
 Start with a size of zero.
 
-- Add *1* For every classic (non textbook-style) symbol. A classic symbol can contain one (e.g., `5`, `÷` and `π`) or more characters (e.g., `cos(`, `ans`, ` nCr ` and `►％`) and still have a size of *1*.
+- Add *1* for every classic (non textbook-style) symbol. A classic symbol can contain one (e.g., `5`, `÷` and `π`) or more characters (e.g., `cos(`, `ans`, ` nCr ` and `►％`) and still have a size of *1*.
 
 For MathPrint™ (textbook-style) symbols :
 - Add *1* for every rectangle with a dotted border (a placeholder, typically found inside a fraction, root or exponent).
