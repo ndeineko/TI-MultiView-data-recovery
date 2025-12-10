@@ -45,7 +45,7 @@ Back up any important data from the calculator before proceeding.
 - Press the following keys : `.` `enter` `clear` `^` `enter` `clear` `data` `0` `enter` `▶` `sto▸` `data` `enter` `enter` `sto▸` `clear` `clear` `2nd` `mode` `▲` `enter` `◀` `▲` `enter` `delete` `delete` `clear` `▲` `delete` `delete`.
 - Press `▲` to scroll through recovered entries.
 
-[Here](example.webm?raw=true) is a video illustrating this example.
+[Here](assets/example.webm?raw=true) is a video illustrating this example.
 
 [example.webm](https://github.com/ndeineko/TI-MultiView-data-recovery/assets/11009067/38b84176-1752-448e-9a26-5a588657b454)
 
@@ -176,4 +176,4 @@ Example :
 
 | Entry | Symbols | Size of symbols | Entry Size |
 | --- | --- | --- | --- |
-| ![(e^√π)/cos(⬚/⬚)](size-example.jpg) | <ul><li>*2* classic symbols (`cos(` and `π`)</li><li>*2* rectangles with a dotted border</li><li>*1* natural exponentiation symbol</li><li>*1* square root</li><li>*2* fraction bars</li></ul> | <ul><li>*2* × 1 = 2</li><li>*2* × 1 = 2</li><li>*1* × 2 = 2</li><li>*1* × 2 = 2</li><li>*2* × 3 = 6</li></ul> | 2 + 2 + 2 + 2 + 6 = **14** |
+| ![(e^√π)/cos(⬚/⬚)](assets/size-example-3.jpg) | <ul><li>*2* classic symbols (`cos(` and `π`)</li><li>*2* rectangles with a dotted border</li><li>*1* natural exponentiation symbol</li><li>*1* square root</li><li>*2* fraction bars</li></ul> | <ul><li>*2* × 1 = 2</li><li>*2* × 1 = 2</li><li>*1* × 2 = 2</li><li>*1* × 2 = 2</li><li>*2* × 3 = 6</li></ul> | 2 + 2 + 2 + 2 + 6 = **14** |
