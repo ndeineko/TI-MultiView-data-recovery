@@ -162,27 +162,18 @@ The following steps should be done in chronological order. When a step contains 
 
 This section explains how to calculate the size of an entry in memory. It works with inputs and results.
 
-Start with a size of zero.
+- Start with a size of zero.
+- Add *1* for every classic (non textbook-style) symbol. A classic symbol can contain one (e.g., `5`, `)`, `÷` and `π`) or more (e.g., `cos(`, `ans`, ` nCr ` and `►％`) characters and still have a size of *1*.
+- For MathPrint™ (textbook-style) symbols :
+	- Add *1* for every rectangle with a dotted border (a placeholder, typically found inside a fraction, root or exponent).
+	- Add *2* for every natural exponentiation symbol (and **don't** count `e` as a character).
+	- Add *2* for every other exponentiation (with another base than `e`).
+	- Add *2* for every square root symbol.
+	- Add *3* for every n-th root symbol.
+	- Add *3* for every fraction bar.
 
-- Add *1* for every classic (non textbook-style) symbol. A classic symbol can contain one (e.g., `5`, `÷` and `π`) or more characters (e.g., `cos(`, `ans`, ` nCr ` and `►％`) and still have a size of *1*.
+Example :
 
-For MathPrint™ (textbook-style) symbols :
-- Add *1* for every rectangle with a dotted border (a placeholder, typically found inside a fraction, root or exponent).
-- Add *2* for every natural exponentiation symbol (and **don't** count `e` as a character).
-- Add *2* for every other exponentiation (with another base than `e`).
-- Add *2* for every square root symbol.
-- Add *3* for every n-th root symbol.
-- Add *3* for every fraction bar.
-
-For instance, the following expression has a size of *14* :
-
-![](size-example.jpg)
-
-It contains :
-- *2* fraction bars,
-- one natural exponentiation symbol,
-- one square root,
-- *2* classic symbols (`cos(` and `π`),
-- *2* rectangles with a dotted border.
-
-Its size is `(2 * 3) + (1 * 2) + (1 * 2) + (2 * 1) + (2 * 1) = 14`.
+| Entry | Symbols | Size of symbols | Entry Size |
+| --- | --- | --- | --- |
+| ![(e^√π)/cos(⬚/⬚)](size-example.jpg) | <ul><li>*2* classic symbols (`cos(` and `π`)</li><li>*2* rectangles with a dotted border</li><li>*1* natural exponentiation symbol</li><li>*1* square root</li><li>*2* fraction bars</li></ul> | <ul><li>*2* × 1 = 2</li><li>*2* × 1 = 2</li><li>*1* × 2 = 2</li><li>*1* × 2 = 2</li><li>*2* × 3 = 6</li></ul> | 2 + 2 + 2 + 2 + 6 = **14** |
