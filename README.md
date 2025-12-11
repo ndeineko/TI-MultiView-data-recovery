@@ -174,7 +174,7 @@ This section explains how to calculate the size of an entry in memory. It works 
 
 Some example entries, with their size, can be found in the table below.
 
-| Entry | Symbols | Entry size calculation |
+| Entry | Symbols | Entry size</br>calculation |
 | --- | --- | ---: |
 | ![sin-1(0.5)►％](assets/size-example-1.png) | *6* classic symbols (<code>sin<sup>−1</sup>(</code>, `0`, `.`, `5`, `)` and `►％`) | *6* × 1 = **6** |
 | ![(9√97)/97](assets/size-example-2.png) | *5* classic symbols (`9`, `9`, `7`, `9`, and `7`)<br/>*1* square root<br/>*1* fraction bar<br/><br/> | *5* × 1 = 5<br/>*1* × 2 = 2<br/>*1* × 3 = 3<br/>Sum = **10**<br/> |
