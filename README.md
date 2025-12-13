@@ -176,6 +176,6 @@ Some example entries, with their size, can be found in the table below.
 
 | Entry | Symbols | Entry size</br>calculation |
 | --- | --- | ---: |
-| ![sin-1(0.5)►％](assets/size-example-1.png) | *6* classic symbols (<code>sin<sup>−1</sup>(</code>, `0`, `.`, `5`, `)` and `►％`) | *6* × 1 = **6** |
+| ![sin-1(8.5)►％](assets/size-example-1.png) | *6* classic symbols (<code>sin<sup>−1</sup>(</code>, `8`, `.`, `5`, `)` and `►％`) | *6* × 1 = **6** |
 | ![(9√97)/97](assets/size-example-2.png) | *5* classic symbols (`9`, `9`, `7`, `9` and `7`)<br/>*1* square root<br/>*1* fraction bar<br/><br/> | *5* × 1 = 5<br/>*1* × 2 = 2<br/>*1* × 3 = 3<br/>Sum = **10**<br/> |
 | ![(e^√π)/cos(⬚/⬚)](assets/size-example-3.png) | *2* classic symbols (`cos(` and `π`)<br/>*2* rectangles with a dotted border<br/>*1* natural exponentiation<br/>*1* square root<br/>*2* fraction bars<br/><br/> | *2* × 1 = 2<br/>*2* × 1 = 2<br/>*1* × 2 = 2<br/>*1* × 2 = 2<br/>*2* × 3 = 6<br/>Sum = **14**<br/> |
